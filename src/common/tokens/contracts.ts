@@ -1957,7 +1957,7 @@ export const contracts = {
         id: "ethereum-classic"
     },
     "0x000000000000000000000000000000000014095A": {
-        id: "ether1"
+        id: "Ether-1"
     },
     "0x0000000000000000000000000000000000000334": {
         id: "callisto-network"
