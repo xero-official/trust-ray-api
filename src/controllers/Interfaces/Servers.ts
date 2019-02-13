@@ -4,7 +4,7 @@ export enum Nodes {
     poa = "https://trust-poa.herokuapp.com/",
     callisto = "https://trust-callisto.herokuapp.com/",
     gochain = "https://trust-gochain.herokuapp.com/",
-    ether1 = "http://api.etholabs.org/",
+    ether1 = "https://api.etholabs.org/",
     localhost = "http://localhost:8000/"
 }
 
