@@ -150,7 +150,7 @@ export class TokenPriceController {
             "POA": "poa-network",
             "CLO": "callisto-network",
             "GO" : "gochain",
-            "ETHO": "ether-1"
+            "ETHO": "ether1"
         }
 
         return tokens.map((token: IToken) => {
