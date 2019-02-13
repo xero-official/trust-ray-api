@@ -151,6 +151,8 @@ export class TokenPriceController {
             "CLO": "callisto-network",
             "GO" : "gochain",
             "ETHO" : "ether1"
+         }
+
 
 
         return tokens.map((token: IToken) => {
