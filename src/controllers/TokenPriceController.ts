@@ -149,8 +149,8 @@ export class TokenPriceController {
             "ETC": "ethereum-classic",
             "POA": "poa-network",
             "CLO": "callisto-network",
-            "GO" : "gochain",
-            "ETHO" : "Ether1"
+            "GO": "gochain",
+            "ETHO": "ether-1"
          }
 
 
