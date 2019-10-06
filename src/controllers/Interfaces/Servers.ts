@@ -6,7 +6,7 @@ export enum Nodes {
     gochain = "https://trust-gochain.herokuapp.com/",
     ether1 = "https://api.etholabs.org/",
     localhost = "http://localhost:8000/",
-    xerom = "https://mobileapi.xerom.org"
+    xerom = "https://mobileapi.xerom.org/"
 }
 
 export enum Endpoints {
