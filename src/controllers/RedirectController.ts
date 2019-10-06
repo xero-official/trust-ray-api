@@ -137,7 +137,7 @@ export class Redirect {
 
     public getAssets = (req: Request, res: Response) => {
         const query = this.createQuery(req.query)
-        const url = `${Nodes.ethereum}${Endpoints.Assets}${query}`
+        const url = `${Nodes.ether1}${Endpoints.Assets}${query}`
         res.redirect(url)
     }
 
