@@ -1,5 +1,5 @@
 export enum Nodes {
-    ethereum = "https://api.trustwalletapp.com/",
+    //ethereum = "https://api.trustwalletapp.com/",
     classic = "https://trust-classic.herokuapp.com/",
     poa = "https://trust-poa.herokuapp.com/",
     callisto = "https://trust-callisto.herokuapp.com/",
