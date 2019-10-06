@@ -151,6 +151,7 @@ export class TokenPriceController {
             "CLO": "callisto-network",
             "GO": "gochain",
             "ETHO": "ether-1"
+            "XERO": "xerom"
          }
 
 

@@ -5,7 +5,8 @@ export enum Nodes {
     callisto = "https://trust-callisto.herokuapp.com/",
     gochain = "https://trust-gochain.herokuapp.com/",
     ether1 = "https://api.etholabs.org/",
-    localhost = "http://localhost:8000/"
+    localhost = "http://localhost:8000/",
+    xerom = "https://mobileapi.xerom.org"
 }
 
 export enum Endpoints {
@@ -27,6 +28,7 @@ export enum CoinTypeIndex {
     poa = 178,
     callisto = 820,
     gochain = 6060,
+    xerom = 1313500,
     // localhost = 8000 // Uncomment for test pourpouse
 }
 
