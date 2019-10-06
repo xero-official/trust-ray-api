@@ -22,7 +22,7 @@ export enum Endpoints {
 
 // https://github.com/satoshilabs/slips/blob/master/slip-0044.md
 export enum CoinTypeIndex {
-    ethereum = 60,
+    //ethereum = 60,
     classic = 61,
     ether1 = 1313114,
     poa = 178,

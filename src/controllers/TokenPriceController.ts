@@ -145,7 +145,7 @@ export class TokenPriceController {
         }, {});
 
         const altValues = {
-            "ETH": "ethereum",
+            //"ETH": "ethereum",
             "ETC": "ethereum-classic",
             "POA": "poa-network",
             "CLO": "callisto-network",
