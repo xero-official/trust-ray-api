@@ -1,9 +1,9 @@
 export enum Nodes {
     //ethereum = "https://api.trustwalletapp.com/",
-    classic = "https://trust-classic.herokuapp.com/",
-    poa = "https://trust-poa.herokuapp.com/",
-    callisto = "https://trust-callisto.herokuapp.com/",
-    gochain = "https://trust-gochain.herokuapp.com/",
+    //classic = "https://trust-classic.herokuapp.com/",
+    //poa = "https://trust-poa.herokuapp.com/",
+    //callisto = "https://trust-callisto.herokuapp.com/",
+    //gochain = "https://trust-gochain.herokuapp.com/",
     ether1 = "https://api.etholabs.org/",
     localhost = "http://localhost:8000/",
     xerom = "https://mobileapi.xerom.org/"
