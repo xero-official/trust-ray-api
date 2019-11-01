@@ -88,7 +88,7 @@ export class Redirect {
                 const url = `${Nodes[CoinTypeIndex[network]]}${Endpoints.RegisterDevice}`
                 const wallets = req.body.networks[network]
                 const data = { deviceID, token, type, wallets }
-                const registered = await axios.post(url, data).then(res => res.data)
+                const registered = await axios.post(url, data).then(res => res.data).catch(error=>{console.log("Fuck")});
                 registrResults.push(registered)
            })
 
@@ -110,7 +110,7 @@ export class Redirect {
                 const coin = CoinTypeIndex[networkIndex]
                 const url = `${Nodes[coin]}${Endpoints.UnegisterDevice}`
                 const data = {deviceID, token, networks, type}
-                const unregistered = await axios.post(url, data).then(res => res.data)
+                const unregistered = await axios.post(url, data).then(res => res.data).catch(error=>{console.log("Fuck")});
                 unregisterResults.push(unregistered)
             })
 
